@@ -11,7 +11,9 @@ import { db } from './models/index.js';
       useNewUrlParser: true,
       useUnifiedTopology: true,
     });
+    console.log('Sessão iniciada')
   } catch (error) {
+    console.log('Erro ao iniciar a Sessão'+error)    
     process.exit();
   }
 })();

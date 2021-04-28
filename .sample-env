@@ -1,0 +1,4 @@
+USERDB =esfernandes
+PWDDB  =mongo123
+MONGODB =@bootcamp.fxb6q.mongodb.net/MY_GRADES_DB?retryWrites=true&w=majority
+PORT    =8080
